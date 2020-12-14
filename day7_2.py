@@ -18,7 +18,7 @@ for desc in sys.stdin:
         contains = []
     
     contains = [(int(c[:2]), c[2:]) for c in contains]
-    print(src, contains)
+    # print(src, contains)
     nodes[src] = contains
 
 
